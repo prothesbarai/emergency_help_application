@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutMain"
+        android:visibility="visible"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            >
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:id="@+id/carousel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                app:autoPlay="true"
+                app:showCaption="true"
+                app:showNavigationButtons="false"
+                app:showBottomShadow="true"
+                app:showTopShadow="true"
+                app:captionTextSize="20sp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <com.mursaat.extendedtextview.AnimatedGradientTextView
+            android:id="@+id/animatedGradientTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roundedImg"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:angle="45"
+            app:colors="@array/funny_colors"
+            app:maxFPS="30"
+            app:simultaneousColors="4"
+            app:speed="1000"
+            />
+
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:id="@+id/gridView"
+            android:listSelector="@color/transparent"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/no_internet_linearLayout"
+        android:visibility="gone"
+        >
+        <include
+            layout="@layout/no_internet_layout"
+            />
+    </LinearLayout>
+
+</LinearLayout>

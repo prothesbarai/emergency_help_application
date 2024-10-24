@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- This String App Nam e-->
+    <string name="app_name">জরুরী সহায়তা</string>
+    <string name="division_activity_name">বাংলাদেশের বিভাগসমূহ</string>
+    <string name="district_title">"\n"সমগ্র জেলা সমূহ</string>
+    <string name="upazila_title"> জেলার সমগ্র"\n"উপজেলা / থানা সমূহ"\n"ও ফোন নম্বর সমূহ</string>
+
+
+    <!-- This String No Internet -->
+    <string name="no_internet_title">No Internet</string>
+    <string name="no_internet_des">Please Check Your Internet Connection</string>
+
+    <!-- This String Carousel Image -->
+    <string name="hotline_num_carousel_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/hotline_no.png</string>
+    <string name="bd_police_carousel_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/bdpolice.png</string>
+    <string name="cyber_security_carousel_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/cybercrimeunit.png</string>
+    <string name="cyber_bulling_carousel_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/cyberbulling.png</string>
+
+    <!-- This String Grid Image -->
+    <string name="hotline_call_grid_items_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/emergencycall.jpeg</string>
+    <string name="bd_police_grid_items_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/bdpolish.jpeg</string>
+    <string name="c_s_grid_items_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/cybercrimeunit.jpeg</string>
+    <string name="cyber_bulling_grid_items_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/cyberbulling.jpeg</string>
+
+    <!-- This String Cyber Bullying Page -->
+    <string name="questions_1">Cyberbullying কী?</string>
+    <string name="answer_1">
+        সাইবারবুলিং (Cyberbullying) হলো ইলেকট্রনিক মাধ্যম ব্যবহার করে কাউকে হেনস্থা, অপমান বা ভয় দেখানোর প্রক্রিয়া। এটি সাধারণত সোশ্যাল মিডিয়া,
+        মেসেজিং অ্যাপ, ইমেইল, বা অনলাইন গেমসের মাধ্যমে ঘটে।
+    </string>
+    <string name="questions_2">Cyberbullying এর ধরন</string>
+    <string name="answer_2">
+        •  কাউকে হুমকি দেওয়া"\n"
+        •  অপমান বা ব্যঙ্গাত্মক মন্তব্য করা"\n"
+        •  কারো ব্যক্তিগত ছবি বা তথ্য প্রকাশ করা"\n"
+        •  মিথ্যা তথ্য দিয়ে কারো সম্মান নষ্ট করা"\n"
+        •  অবমাননাকর বা অপমানজনক মেসেজ পাঠানো"\n"
+        •  কাউকে অনলাইন মাধ্যমে ক্রমাগত হুমকি দেওয়া"\n"
+        •  মিথ্যা গুজব বা অপপ্রচার ছড়ানো"\n"
+        •  অনলাইনে অসম্মানজনক পোস্ট তৈরি করা
+    </string>
+    <string name="questions_3">Cyberbullying এর প্রভাব</string>
+    <string name="answer_3">
+        সাইবার বুলিংয়ের এই ধরনের আচরণ মানসিক কষ্ট সৃষ্টি করতে পারে এবং ভুক্তভোগীর আত্মবিশ্বাস, মানসিক স্বাস্থ্য,
+        এমনকি জীবনের প্রতি দৃষ্টিভঙ্গিতেও নেতিবাচক প্রভাব ফেলতে পারে। সাইবারবুলিংয়ের শিকার ব্যক্তিরা অনেক সময় সামাজিকভাবে বিচ্ছিন্ন বোধ করেন এবং এটি উদ্বেগ,
+        বিষণ্ণতা, আত্মবিশ্বাস হারানো,  এবং আত্মহত্যার ঝুঁকি বাড়াতে পারে।
+    </string>
+    <string name="questions_4">Cyberbullying এর বিরুদ্ধে প্রতিরোধমূলক পদক্ষেপ</string>
+    <string name="answer_4">
+        •  মেসেজ বা কমেন্টস রিপোর্ট করা"\n"
+        •  আক্রমণকারীকে ব্লক করা"\n"
+        •  গোপনীয়তা সেটিংস আপডেট করা"\n"
+        •  অশোভনীয় পোস্টে প্রতিক্রিয়া না দেখানো"\n"
+        •  ব্যাক্তিগত তথ্যের সুরক্ষা করা"\n"
+        •  অপরিচিত ব্যক্তিকে এড়িয়ে চলা"\n"
+        •  আক্রমণকারীর প্রমাণ সংরক্ষণ করা"\n"
+        •  আক্রমণকারীর বিরুদ্ধে আইনগত ব্যবস্হা নেওয়া
+    </string>
+    <string name="questions_5">বাংলাদেশে Cyberbullying এর শাস্তি:</string>
+    <string name="answer_5">
+        বাংলাদেশে Cyberbullying বা অনলাইন হয়রানির বিরুদ্ধে আইন রয়েছে,
+        যা তথ্য ও যোগাযোগ প্রযুক্তি আইন, ২০০৬ (আইসিটি আইন) এবং ডিজিটাল নিরাপত্তা আইন, ২০১৮ এর অধীনে নিয়ন্ত্রিত হয়।
+        এই আইনে সাইবার অপরাধের শাস্তি এবং প্রতিরোধের জন্য বিভিন্ন ধারা অন্তর্ভুক্ত করা হয়েছে। "\n\n"
+        "\t"১. ডিজিটাল নিরাপত্তা আইন, ২০১৮:"\n"
+        "\t""\t""\t"•  ধারা ২৫:"\n"
+        "\t""\t""\t""\t""\t"•	অনলাইনে মিথ্যা, আক্রমণাত্মক বা মানহানিকর তথ্য প্রকাশ করলে ৩ বছর পর্যন্ত কারাদণ্ড এবং সর্বোচ্চ ৩ লক্ষ টাকা জরিমানা।"\n"
+        "\t""\t""\t"•  ধারা ২৯:"\n"
+        "\t""\t""\t""\t""\t"•	মানহানি বা সম্মানহানি করলে ৩ বছর পর্যন্ত কারাদণ্ড বা ৫ লক্ষ টাকা পর্যন্ত জরিমানা অথবা উভয়ই।"\n"
+        "\t""\t""\t"•  ধারা ৩১:"\n"
+        "\t""\t""\t""\t""\t"•	সামাজিক বিশৃঙ্খলা বা জনমনে ভীতি সৃষ্টি করা হলে ৭ বছর পর্যন্ত কারাদণ্ড বা ১০ লক্ষ টাকা জরিমানা বা উভয়ই।"\n"
+        "\t"২. তথ্য ও যোগাযোগ প্রযুক্তি আইন, ২০০৬ (সংশোধিত ২০১৩):"\n"
+        "\t""\t""\t"•  ধারা ৫৭:"\n"
+        "\t""\t""\t""\t""\t"•	অনলাইনে আপত্তিকর, মিথ্যা, অশ্লীল বা মানহানিকর কনটেন্ট প্রকাশ করলে সর্বোচ্চ ১৪ বছর পর্যন্ত কারাদণ্ড এবং ১ কোটি টাকা পর্যন্ত জরিমানা।"\n"
+    </string>
+    <string name="conslusion">
+        বাংলাদেশের আইনে সাইবার বুলিংকে অপরাধ হিসেবে গণ্য করা হয় এবং এর শাস্তি হতে পারে কারাদণ্ড থেকে শুরু করে বড় অঙ্কের জরিমানা।
+        আইন অনুযায়ী, সাইবার বুলিংয়ের শিকার হলে আক্রান্ত ব্যক্তি সাইবার ক্রাইম ইউনিটে অভিযোগ দায়ের করতে পারেন, এবং যথাযথ প্রমাণ সাপেক্ষে অপরাধীকে শাস্তি দেওয়া হয়।
+    </string>
+
+
+    <!--  Division Catagory Image Start Here -->
+    <string name="barisal_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/barisal.png</string>
+    <string name="dhaka_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/dhaka.png</string>
+    <string name="khulna_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/khulna.png</string>
+    <string name="chattogram_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/chattogram.png</string>
+    <string name="rajshahi_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/rajshahi.png</string>
+    <string name="rangpur_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/rangpur.png</string>
+    <string name="mymenshing_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/mymenshing.png</string>
+    <string name="sylet_division_img">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/sylet.png</string>
+
+
+    <!--  Division Activity Carousel Image Start Here -->
+    <string name="division_carousel_barisal">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/barisalbanner.jpg</string>
+    <string name="division_carousel_dhaka">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/DhakaBanner.jpg</string>
+    <string name="division_carousel_khulna">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/khulnabanner.jpg</string>
+    <string name="division_carousel_chattogram">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/chattogrambanner.png</string>
+    <string name="division_carousel_rajshahi">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/rajshahibanner.jpg</string>
+    <string name="division_carousel_rangpur">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/rangpurbanner.jpg</string>
+    <string name="division_carousel_mymenshingh">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/mymenshinghbanner.png</string>
+    <string name="division_carousel_sylhet">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/sylhetbanner.png</string>
+
+
+    <!--ListViews Items Images Link-->
+    <string name="district_images">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/district_img.png</string>
+    <string name="emergency_images">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/emergency.png</string>
+    <string name="police_images">https://raw.githubusercontent.com/developerprothes/emergency_call_apps_images/refs/heads/main/policeman.png</string>
+
+
+</resources>

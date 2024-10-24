@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EmergencyHelp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.EmergencyHelp" parent="Base.Theme.EmergencyHelp" />
+
+
+    <!-- Neumorphism CardView Corner Design -->
+    <style name="NeumorphismCard">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">10dp</item>
+    </style>
+
+</resources>

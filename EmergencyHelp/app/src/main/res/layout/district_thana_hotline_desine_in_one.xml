@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".policecontact.DistrictsActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutMain"
+        android:visibility="visible"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:neumorph_backgroundColor="@color/background"
+                app:neumorph_shadowColorDark="@color/dark_shadow"
+                app:neumorph_shadowColorLight="@color/light_shadow"
+                app:neumorph_shadowElevation="5dp"
+                app:neumorph_shapeAppearance="@style/NeumorphismCard"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                >
+                <com.mursaat.extendedtextview.AnimatedGradientTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:colors="@array/funny_colors"
+                    app:simultaneousColors="4"
+                    app:angle="45"
+                    app:speed="1000"
+                    app:maxFPS="30"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="10dp"
+                    android:id="@+id/districtTitle"
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/neumorphCardView"
+                android:divider="@color/transparent"
+                android:dividerHeight="0dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="20dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/no_internet_linearLayout"
+        android:visibility="gone"
+        >
+        <include
+            layout="@layout/no_internet_layout"
+            />
+    </LinearLayout>
+
+</LinearLayout>
