@@ -170,14 +170,14 @@ Glide.with(myFragment)
 
 ## Screenshots
 
-![Splash Screen](https://github.com/user-attachments/assets/37299170-c2ee-45ef-98ae-eef6120473b3)
-![Home](https://github.com/user-attachments/assets/8efc2463-0151-46c9-8e90-411d917b7ce2)
-![hotlines](https://github.com/user-attachments/assets/d1d45aae-7562-416b-8966-8fbeb1d48b41)
-![cyberbulling](https://github.com/user-attachments/assets/c2f23284-5f5a-433d-822f-18a731ee26e5)
-![division](https://github.com/user-attachments/assets/4efc29ee-7e32-413b-ae18-d05ab2f3dd14)
-![district](https://github.com/user-attachments/assets/fa398686-8f15-42a9-a879-4ef47c697faf)
-![thana](https://github.com/user-attachments/assets/54e1fdb8-4c38-4a64-92d2-91b0ae7b983d)
-![no net](https://github.com/user-attachments/assets/0412d1ae-cacf-42da-9b6d-f48dcb35232b)
+![Splash Screen](https://github.com/user-attachments/assets/c9816307-d32e-4f64-99c4-ac055e46136f)
+![Home](https://github.com/user-attachments/assets/bdac3093-7f08-4d80-87f0-aacdf03a2627)
+![hotlines](https://github.com/user-attachments/assets/3e6a14fa-9a4f-49f3-88ed-f200d585f37e)
+![cyberbulling](https://github.com/user-attachments/assets/f4dff2b7-f2ac-41c1-bc72-447d76feab95)
+![division](https://github.com/user-attachments/assets/50c79c47-1d39-4440-99be-f9dbccf616b4)
+![district](https://github.com/user-attachments/assets/8d759715-a4ad-4d34-8bb8-e9f900c99cf6)
+![thana](https://github.com/user-attachments/assets/371758d6-da0a-497a-8478-633896f5e23e)
+![no net](https://github.com/user-attachments/assets/1f73b8f2-332e-4828-8eb2-3818c58868b3)
 
 
 ## Demo
