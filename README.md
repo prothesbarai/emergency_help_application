@@ -182,9 +182,7 @@ Glide.with(myFragment)
 
 ## Demo
 
-https://github.com/user-attachments/assets/974a4174-339a-4f1b-89ce-fa25fcb45619
-
-![vedio-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/382fc485-5596-4e90-8173-29cef8bfae50)
+![vedio-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f27b7023-ea44-43de-8174-274784e162d3)
 
 
 ## 🛠 Skills
