@@ -33,13 +33,13 @@ This is Emergency Help Line Application
 
 ## Installation Library
 #### 1. Add Lottie File Library
-```bash
+```java
 dependencies {
     implementation 'com.airbnb.android:lottie:3.4.0'
   }
 ```
 Lottie File xml code :    
-```bash
+```xml
   <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/animationView"
     android:layout_width="match_parent"
@@ -50,7 +50,7 @@ Lottie File xml code :
 ```
 
 #### 2. Add Rounded Image Library
-```bash
+```java
   repositories {
     mavenCentral()
 }
@@ -60,7 +60,7 @@ dependencies {
 }
 ```
 Rounded Image xml code :    
-```bash
+```xml
 <com.makeramen.roundedimageview.RoundedImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -77,7 +77,7 @@ Rounded Image xml code :
 ```
 
 #### 3. Add Animated Gradients TextView Library
-```bash
+```java
 allprojects {
 	repositories {
 		...
@@ -85,16 +85,16 @@ allprojects {
 	}
 }
 ```
-```bash
+```java
 dependencies {
 	compile 'com.github.Mursaat:AnimatedGradientTextView:v0.0.6'
 }
 ```
 Animated Gradients TextView xml code :    
-```bash
+```xml
 <com.mursaat.extendedtextview.AnimatedGradientTextView
 	android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    	android:layout_height="wrap_content"
 	app:colors="@array/funny_colors"
 	app:simultaneousColors="4"
 	app:angle="45"
@@ -105,28 +105,28 @@ Animated Gradients TextView xml code :
 ```
 
 #### 4. Add Neumorphism Library
-```bash
+```java
 allprojects {
     repositories {
         maven { url "https://jitpack.io" }
     }
 }
 ```
-```bash
+```java
 dependencies {
     implementation 'com.github.fornewid:neumorphism:0.3.2'
 }
 ```
 
 #### 5. Add Image-Carousel Library
-```bash
+```java
 dependencies {
     implementation 'me.relex:circleindicator:2.1.6'
     implementation 'org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0'
 }
 ```
 Image-Carousel xml code :    
-```bash
+```xml
 <org.imaginativeworld.whynotimagecarousel.ImageCarousel
     android:id="@+id/carousel"
     android:layout_width="match_parent"
@@ -134,13 +134,13 @@ Image-Carousel xml code :
 ```
 
 #### 6. Add Trex Game View [ When Internet is Disconnected] Library
-```bash
+```java
 dependencies {
     implementation 'com.github.LionZXY.T-Rex-Android:trex-library:1.0.0'
 }
 ```
 Trex Game View xml code :    
-```bash
+```xml
 <com.lionzxy.trex_library.TRexGameView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -149,7 +149,7 @@ Trex Game View xml code :
 ```
 
 #### 7. Add Use Online Image In Projects Library
-```bash
+```java
 repositories {
   google()
   mavenCentral()
@@ -160,7 +160,7 @@ dependencies {
 }
 ```
 Use Online Image Java code :    
-```bash
+```java
 Glide.with(myFragment)
     .load(url)
     .centerCrop()
