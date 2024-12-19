@@ -332,8 +332,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
     // =============================== My Carousel Start Here ====================================================
     public void myCarousel(){
         carousel.addData(new CarouselItem(getString(R.string.hotline_num_carousel_img),"জরুরী সহায়তা হটলাইন নম্বর"));
